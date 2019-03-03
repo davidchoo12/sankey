@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "total_money",
+      "name": "Money Raised"
+    },
+    {
+      "id": "heart_disease",
+      "name": "Heart Disease"
+    },
+    {
+      "id": "copd",
+      "name": "Chronic Obstructive Pulmonary Disease"
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes"
+    },
+    {
+      "id": "breast_cancer",
+      "name": "Breast Cancer"
+    },
+    {
+      "id": "suicide",
+      "name": "Suicide"
+    },
+    {
+      "id": "prostate_cancer",
+      "name": "Prostate Cancer"
+    },
+    {
+      "id": "hiv_aids",
+      "name": "HIV/AIDS"
+    },
+    {
+      "id": "motor_neuron_disease",
+      "name": "Motor Neuron Disease (including ALS)"
+    },
+    {
+      "id": "total_deaths",
+      "name": "Deaths"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "value": 469.9414159725626,
+      "target": 4
+    },
+    {
+      "source": 0,
+      "value": 267.913081822636,
+      "target": 6
+    },
+    {
+      "source": 0,
+      "value": 98.59930426261637,
+      "target": 1
+    },
+    {
+      "source": 0,
+      "value": 41.73611954924057,
+      "target": 8
+    },
+    {
+      "source": 0,
+      "value": 25.515531602155807,
+      "target": 7
+    },
+    {
+      "source": 0,
+      "value": 12.757765801077904,
+      "target": 2
+    },
+    {
+      "source": 0,
+      "value": 7.654659480646742,
+      "target": 3
+    },
+    {
+      "source": 0,
+      "value": 5.8321215090641845,
+      "target": 5
+    },
+    {
+      "source": 1,
+      "value": 596.577,
+      "target": 9
+    },
+    {
+      "source": 2,
+      "value": 142.942,
+      "target": 9
+    },
+    {
+      "source": 3,
+      "value": 73.831,
+      "target": 9
+    },
+    {
+      "source": 4,
+      "value": 41.374,
+      "target": 9
+    },
+    {
+      "source": 5,
+      "value": 39.518,
+      "target": 9
+    },
+    {
+      "source": 6,
+      "value": 21.176,
+      "target": 9
+    },
+    {
+      "source": 7,
+      "value": 7.683,
+      "target": 9
+    },
+    {
+      "source": 8,
+      "value": 6.849,
+      "target": 9
+    }
+  ]
+}
