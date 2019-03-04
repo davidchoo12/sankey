@@ -1,0 +1,106 @@
+[
+  {
+    "categorie": "Breast Cancer",
+    "values": [
+      {
+        "value": 257.85,
+        "rate": "Money Raised"
+      },
+      {
+        "value": 41374,
+        "rate": "Deaths"
+      }
+    ]
+  },
+  {
+    "categorie": "Prostate Cancer",
+    "values": [
+      {
+        "value": 147,
+        "rate": "Money Raised"
+      },
+      {
+        "value": 21176,
+        "rate": "Deaths"
+      }
+    ]
+  },
+  {
+    "categorie": "Heart Disease",
+    "values": [
+      {
+        "value": 54.1,
+        "rate": "Money Raised"
+      },
+      {
+        "value": 596577,
+        "rate": "Deaths"
+      }
+    ]
+  },
+  {
+    "categorie": "Motor Neuron Disease (including ALS)",
+    "values": [
+      {
+        "value": 22.9,
+        "rate": "Money Raised"
+      },
+      {
+        "value": 6849,
+        "rate": "Deaths"
+      }
+    ]
+  },
+  {
+    "categorie": "HIV/AIDS",
+    "values": [
+      {
+        "value": 14,
+        "rate": "Money Raised"
+      },
+      {
+        "value": 7683,
+        "rate": "Deaths"
+      }
+    ]
+  },
+  {
+    "categorie": "Chronic Obstructive Pulmonary Disease",
+    "values": [
+      {
+        "value": 7,
+        "rate": "Money Raised"
+      },
+      {
+        "value": 142942,
+        "rate": "Deaths"
+      }
+    ]
+  },
+  {
+    "categorie": "Diabetes",
+    "values": [
+      {
+        "value": 4.2,
+        "rate": "Money Raised"
+      },
+      {
+        "value": 73831,
+        "rate": "Deaths"
+      }
+    ]
+  },
+  {
+    "categorie": "Suicide",
+    "values": [
+      {
+        "value": 3.2,
+        "rate": "Money Raised"
+      },
+      {
+        "value": 39518,
+        "rate": "Deaths"
+      }
+    ]
+  }
+]
