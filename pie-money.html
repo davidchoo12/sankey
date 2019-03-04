@@ -1,0 +1,137 @@
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div id="pieChart"></div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
+<script src="https://unpkg.com/d3pie@0.2.1/d3pie/d3pie.min.js"></script>
+<script>
+var pie = new d3pie("pieChart", {
+  "header": {
+    "title": {
+      "text": "Money Raised",
+      "fontSize": 50,
+      "font": "verdana"
+    },
+    "subtitle": {
+      "text": "Value unit is million dollars",
+      "color": "#999999",
+      "fontSize": 25,
+      "font": "verdana"
+    },
+    "titleSubtitlePadding": 12
+  },
+  "footer": {
+    "text": "Source: http://www.vox.com/2014/8/20/6040435/als-ice-bucket-challenge-and-why-we-give-to-charity-donate",
+    "color": "#000000",
+    "fontSize": 20,
+    "font": "open sans",
+    "location": "bottom-left"
+  },
+  "size": {
+    "canvasHeight": 1080,
+    "canvasWidth": 1920,
+    "pieOuterRadius": "90%"
+  },
+  "data": {
+    "sortOrder": "value-asc",
+    "content": [
+      {
+        "label": "Breast Cancer",
+        "value": 257.85,
+        "color": "#e87db3"
+      },
+      {
+        "label": "Prostate Cancer",
+        "value": 147,
+        "color": "#f0972c"
+      },
+      {
+        "label": "Heart Disease",
+        "value": 54.1,
+        "color": "#766ab0"
+      },
+      {
+        "label": "Motor Neuron Disease (including ALS)",
+        "value": 22.9,
+        "color": "#ababab"
+      },
+      {
+        "label": "HIV/AIDS",
+        "value": 14,
+        "color": "#e4202c"
+      },
+      {
+        "label": "Chronic Obstructive Pulmonary Disease",
+        "value": 7,
+        "color": "#7acbd2"
+      },
+      {
+        "label": "Diabetes",
+        "value": 4.2,
+        "color": "#53ba4a"
+      },
+      {
+        "label": "Suicide",
+        "value": 3.2,
+        "color": "#fbf624"
+      }
+    ]
+  },
+  "labels": {
+    "outer": {
+      "format": "label-percentage1",
+      "pieDistance": 20
+    },
+    "inner": {
+      "format": "value",
+      "hideWhenLessThanPercentage": 1
+    },
+    "mainLabel": {
+      "font": "verdana",
+      "fontSize": 20
+    },
+    "percentage": {
+      "color": "#333333",
+      "font": "verdana",
+      "fontSize": 20,
+      "decimalPlaces": 2
+    },
+    "value": {
+      "color": "#000000",
+      "font": "verdana",
+      "fontSize": 20
+    },
+    "lines": {
+      "enabled": true,
+      "style": "straight",
+      "color": "#cccccc"
+    }
+  },
+  "tooltips": {
+    "enabled": true,
+    "type": "placeholder",
+    "string": "{label}: {value}, {percentage}%",
+    "styles": {
+      "fontSize": 20
+    }
+  },
+  "effects": {
+    "pullOutSegmentOnClick": {
+      "effect": "linear",
+      "speed": 400,
+      "size": 8
+    }
+  }
+});
+</script>
+
+</body>
+</html>
