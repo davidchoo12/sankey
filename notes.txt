@@ -1,0 +1,32 @@
+596.577 + 142.942 +73.831+41.374+39.518+21.176+7.683+6.849
+
+breast cancer #e87db3
+prostate cancer #f0972c
+heart #766ab0
+mnd #ababab
+hiv #e4202c
+copd #7acbd2
+diabetes #53ba4a
+suicide #fbf624
+
+Breast Cancer,257.85
+Prostate Cancer,147
+Heart Disease,54.1
+Motor Neuron Disease (including ALS),22.9
+HIV/AIDS,14
+Chronic Obstructive Pulmonary Disease,7
+Diabetes,4.2
+Suicide,3.2
+
+money sum 510.25
+
+Breast Cancer,41374
+Prostate Cancer,21176
+Heart Disease,596577
+Motor Neuron Disease (including ALS),6849
+HIV/AIDS,7683
+Chronic Obstructive Pulmonary Disease,142942
+Diabetes,73831
+Suicide,39518
+
+deaths sum 929950
